@@ -1,6 +1,6 @@
 # Fieldnotes — UI/UX & front-end portfolio
 
-An editorial-style portfolio project built around the idea of field notes: observe a small point of friction, frame a user goal, then design and build a useful interface. The visual system uses warm paper, campus green, restrained orange accents, a map-route motif, custom CSS mockups, a light/dark theme toggle, and a short About Q&A.
+An editorial portfolio project built around the idea of field notes: observe a small point of friction, frame a user goal, then design and build a useful interface. The home page uses a profile-first split hero, original campus-inspired illustration, oversized typography, compact contact links, and a floating section dock. Three focused project concepts connect UI/UX practice with front-end implementation.
 
 ## Contents
 
@@ -19,7 +19,7 @@ Open `index.html` in a browser. The site uses no build step or third-party JavaS
 
 ## Hosting
 
-Target: GitHub Pages at `https://marcus-nicolas.github.io/`. This is a static site with no build step. Put the contents of this directory at the repository root and serve the `main` branch root with Pages. `.nojekyll` is included. Publishing is waiting on creation of the new public repository named `marcus-nicolas.github.io`; the connected GitHub tools can update existing repositories but cannot create a new one.
+Live site: `https://marcus-nicolas.github.io/`. This is a static site with no build step and deploys to GitHub Pages from the `main` branch with GitHub Actions. `.nojekyll` is included.
 
 ## Project integrity
 
@@ -30,4 +30,3 @@ The student portal and appointment booking app are self-initiated concepts with 
 The portfolio now includes Marcus Andrew Nicolas, the supplied contact email, and the connected GitHub profile. Add any optional profile links or final screenshots after reviewing the project concepts. Keep descriptions accurate to your own work and contributions.
 
 `student-portal/figma-wireframes.svg` contains vector wireframe artwork for opening or placing in Figma. It includes a 1440 × 1000 desktop frame and a 390 × 844 mobile frame.
-
