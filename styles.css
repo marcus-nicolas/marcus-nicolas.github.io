@@ -484,7 +484,7 @@ body { padding-bottom: 100px; background: var(--paper); }
   .topbar-note { display: none; }
   .topbar-link { font-size: 8px; }
   .profile-hero { min-height: 0; grid-template-columns: 1fr; }
-  .profile-art { min-height: 0; height: min(48svh, 390px); }
+  .profile-art { min-height: 0; height: clamp(260px, 44svh, 390px); }
   .profile-illustration { min-height: 0; height: 100%; object-position: center 42%; }
   .profile-art-label { bottom: 17px; font-size: 7px; }
   .profile-art-seal { top: 15px; right: 15px; width: 42px; height: 42px; }
