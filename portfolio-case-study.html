@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="The thinking and front-end decisions behind the Fieldnotes portfolio website.">
+    <title>Portfolio Website — Fieldnotes</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:wght@400;500;600;700&family=Fraunces:opsz,wght@9..144,500;9..144,600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="projects.css">
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="project-header"><a class="project-brand" href="index.html"><span class="brand-mark">F</span> Fieldnotes</a><nav aria-label="Project navigation"><a href="index.html#work">All work</a><a href="index.html#approach">Approach</a><a href="index.html#contact">Contact</a></nav></header>
+    <main id="main">
+      <section class="project-wrap project-hero">
+        <p class="project-eyebrow">03 / WEB DESIGN · FRONT-END BUILD</p>
+        <h1>A portfolio built<br>like a <em>field guide.</em></h1>
+        <p class="project-lede">The portfolio website is a project in its own right: an editorial visual system that connects the case studies, and a responsive front-end implementation built with semantic HTML, CSS, and JavaScript.</p>
+        <div class="project-actions"><a class="project-button" href="index.html">Return to the live portfolio <span aria-hidden="true">↗</span></a></div>
+        <dl class="project-meta"><div><dt>PROJECT TYPE</dt><dd>Personal portfolio concept</dd></div><div><dt>ROLE</dt><dd>UI design · front-end</dd></div><div><dt>STACK</dt><dd>HTML · CSS · JavaScript</dd></div><div><dt>STATUS</dt><dd>Responsive static site</dd></div></dl>
+      </section>
+      <section class="project-wrap case-section"><div class="case-grid"><p class="case-label">01 / THE DIRECTION</p><div class="case-copy"><h2>Give the learning journey a visual home.</h2><p>Many early-career portfolios rely on the same centered hero, gradient background, and uniform project cards. I wanted this one to feel more personal to the work: curious, grounded, and connected to a campus setting without looking like a university website.</p><p>The “Fieldnotes” idea frames each project as an observation turned into an interface. A quiet map line, field labels, and paper-like surfaces give the site a recognizable visual thread, while the case study content stays direct and readable.</p></div></div></section>
+      <section class="project-wrap case-section"><div class="case-grid"><p class="case-label">02 / VISUAL SYSTEM</p><div class="case-copy"><h2>Editorial type. Map-like details. Useful contrast.</h2><ul><li><strong>Warm paper</strong> gives the canvas a softer character than stark white.</li><li><strong>Deep green</strong> anchors navigation and primary actions; orange is reserved for small emphasis.</li><li><strong>Serif headings</strong> provide an editorial voice, paired with a clear sans-serif for body copy and a mono face for labels.</li><li><strong>Custom interface illustrations</strong> preview the project concepts without relying on stock imagery.</li></ul><p>The system uses color in small, consistent roles and includes focus indicators and reduced-motion support.</p></div></div></section>
+      <section class="project-wrap case-section"><div class="case-grid"><p class="case-label">03 / REFERENCE STUDY</p><div class="case-copy"><h2>Borrow the useful patterns. Keep the identity original.</h2><p><a href="https://jcdcocampo.pages.dev" target="_blank" rel="noreferrer">The first reference</a> made the owner’s name, role, work, and contact details easy to find. <a href="https://dev-xelpaxu.vercel.app" target="_blank" rel="noreferrer">The second</a> pairs project browsing with an interactive personal Q&amp;A and appearance controls.</p><p>I carried those structural ideas into this site through a clear name and role in the hero, three focused project cards, direct contact links, the About Q&amp;A, and the light/dark control. The visual direction—Fieldnotes, campus-map routes, and warm paper—was made for this portfolio.</p><p>I left out résumé, experience, testimonial, location, and activity-stat sections that would need details or evidence not supplied for this portfolio.</p></div></div></section>
+      <section class="project-wrap case-section"><div class="case-grid"><p class="case-label">04 / FRONT-END NOTES</p><div class="case-copy"><h2>Build the layout around real reading order.</h2><ul><li>Semantic landmarks and a skip link help keyboard and assistive-technology users move through the page.</li><li>CSS Grid and flexible sizing adapt the hero, case-study list, and footer to smaller screens.</li><li>The mobile navigation exposes its open state with <code>aria-expanded</code> and closes on Escape or link selection.</li><li>A light/dark toggle updates the page’s CSS color tokens, and a native disclosure list gives the About section a short Q&amp;A.</li><li>Project demos use native controls, labels, focus states, and client-side interactions.</li></ul><p>The pages are static and require no build step. The personal details come from Marcus; the project scenarios and sample data are clearly labeled concepts.</p></div></div></section>
+      <section class="project-wrap case-section"><div class="case-grid"><p class="case-label">05 / NEXT ITERATION</p><div class="case-copy"><h2>Keep the work personal and specific.</h2><p>The portfolio now includes Marcus’s preferred name, contact email, and GitHub profile. As the projects develop, add only the feedback, decisions, and outcomes that reflect work actually completed.</p><p>This page describes the design intent and implementation choices; it does not claim user testing or measured results.</p><a class="project-button" href="index.html#contact">Get in touch <span aria-hidden="true">↗</span></a></div></div></section>
+    </main>
+    <footer class="project-wrap project-footer"><a href="index.html">← Fieldnotes home</a><span>PROJECT 03 / PORTFOLIO WEBSITE</span><a href="student-portal/index.html">Next: student portal →</a></footer>
+  </body>
+</html>
