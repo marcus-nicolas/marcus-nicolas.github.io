@@ -1,0 +1,114 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1880" height="1100" viewBox="0 0 1880 1100">
+  <defs>
+    <style>
+      .bg{fill:#f3f0e7}.frame{fill:#fffefa;stroke:#bfc4b8;stroke-width:2}.ink{fill:#26342e}.muted{fill:#718076}.green{fill:#315f4c}.soft{fill:#e7ebe1}.warm{fill:#f2ebdc}.line{stroke:#cbd0c5;stroke-width:2}.dash{stroke:#9ba99b;stroke-width:2;stroke-dasharray:5 7}.mono{font:14px 'DM Mono',monospace;letter-spacing:1px}.small{font:16px 'DM Sans',Arial,sans-serif}.body{font:18px 'DM Sans',Arial,sans-serif}.title{font:600 34px Georgia,serif}.subtitle{font:600 24px Georgia,serif}
+    </style>
+  </defs>
+  <rect class="bg" width="1880" height="1100"/>
+  <text x="42" y="48" class="mono green">STUDENT PORTAL / LOW-FIDELITY WIREFRAMES</text>
+  <text x="42" y="79" class="small muted">Concept layout · sample content · problem hypothesis not yet validated with students</text>
+
+  <!-- Desktop frame: 1440 × 1000 -->
+  <g transform="translate(40 100)">
+    <rect class="frame" width="1440" height="1000" rx="8"/>
+    <rect class="green" width="232" height="1000" rx="8 0 0 8"/>
+    <circle cx="42" cy="47" r="17" fill="none" stroke="#fffefa" stroke-width="2"/>
+    <text x="34" y="53" fill="#fffefa" class="small">n.</text>
+    <text x="70" y="54" fill="#fffefa" class="body">Northline</text>
+    <g fill="#e6ece2" class="small">
+      <rect x="18" y="91" width="196" height="45" rx="5" fill="#ffffff" opacity=".14"/>
+      <text x="54" y="120">Overview</text><text x="34" y="119">⌂</text>
+      <text x="34" y="174">▦</text><text x="54" y="174">Schedule</text>
+      <text x="34" y="225">✓</text><text x="54" y="225">Assignments</text>
+      <text x="34" y="276">◉</text><text x="54" y="276">Notices</text>
+    </g>
+    <line x1="22" y1="320" x2="210" y2="320" stroke="#ffffff" opacity=".2"/>
+    <text x="26" y="949" fill="#d7e1d7" class="mono">NORTHLINE UNIVERSITY</text>
+    <text x="26" y="973" fill="#d7e1d7" class="small">Student portal concept</text>
+
+    <!-- Main workspace: 1144 wide, 32px inner gutters -->
+    <g transform="translate(264 0)">
+      <text x="835" y="48" class="small muted">◌ Notifications</text>
+      <circle cx="1038" cy="43" r="15" fill="#e4e9df"/>
+      <text x="1028" y="49" class="mono green">AR</text>
+      <text x="1064" y="49" class="small ink">Alex Rivera</text>
+      <line x1="0" y1="75" x2="1144" y2="75" class="line"/>
+      <text x="0" y="120" class="mono muted">TUESDAY, 10 NOVEMBER 2026</text>
+      <text x="0" y="167" class="title ink">Good morning, Alex.</text>
+      <text x="0" y="197" class="small muted">Here’s what’s coming up today.</text>
+
+      <rect x="0" y="228" width="736" height="238" rx="4" class="soft" stroke="#cbd0c5" stroke-width="2"/>
+      <rect x="0" y="228" width="736" height="7" class="green"/>
+      <text x="24" y="268" class="mono muted">NEXT CLASS</text><circle cx="700" cy="262" r="5" fill="#d96c42"/>
+      <text x="24" y="322" class="mono green" font-size="29">09:30 AM</text>
+      <text x="24" y="366" class="subtitle ink">Biology 101</text>
+      <text x="24" y="395" class="body muted">Science Hall · Room 204</text>
+      <rect x="24" y="419" width="158" height="30" rx="3" fill="#fffefa"/>
+      <text x="36" y="439" class="small green">View course details ↗</text>
+
+      <rect x="760" y="228" width="384" height="238" rx="4" class="warm" stroke="#cbd0c5" stroke-width="2"/>
+      <rect x="760" y="228" width="384" height="7" fill="#d96c42"/>
+      <text x="784" y="268" class="mono muted">UPCOMING DEADLINES</text><text x="1047" y="268" class="small muted">2 items</text>
+      <text x="784" y="314" class="body ink">Lab report</text><text x="784" y="340" class="small muted">Biology 101</text>
+      <rect x="1011" y="294" width="108" height="29" rx="3" fill="#eadcc5"/><text x="1020" y="313" class="mono" fill="#81563c">THU, NOV 12</text>
+      <line x1="784" y1="357" x2="1120" y2="357" class="line"/>
+      <text x="784" y="388" class="body ink">Reading response</text><text x="784" y="414" class="small muted">Writing seminar</text>
+      <rect x="1011" y="395" width="108" height="29" rx="3" fill="#eadcc5"/><text x="1020" y="414" class="mono" fill="#81563c">FRI, NOV 13</text>
+      <text x="784" y="449" class="small green">View all assignments ↗</text>
+
+      <rect x="0" y="484" width="1144" height="66" rx="4" fill="#f8f6ee" stroke="#d8d7cd" stroke-width="2"/>
+      <circle cx="32" cy="517" r="15" fill="#f1e6d6"/><text x="27" y="523" class="body" fill="#9b613f">i</text>
+      <text x="59" y="507" class="mono muted">IMPORTANT NOTICE · CAMPUS LIBRARY</text>
+      <text x="59" y="531" class="small ink">Library hours change this week</text>
+      <text x="1050" y="525" class="small green">Details ↗</text>
+
+      <text x="0" y="600" class="subtitle ink">Your schedule</text>
+      <rect x="942" y="571" width="82" height="32" rx="4" fill="#fffefa"/>
+      <text x="959" y="592" class="small ink">Today</text>
+      <rect x="1026" y="571" width="118" height="32" rx="4" fill="#e9eae2"/>
+      <text x="1041" y="592" class="small muted">This week</text>
+      <line x1="0" y1="617" x2="1144" y2="617" class="line"/>
+      <text x="0" y="650" class="mono green">09:30</text><text x="90" y="650" class="body ink">Biology 101</text><text x="90" y="675" class="small muted">Science Hall · Room 204</text>
+      <text x="1040" y="655" class="mono muted">LECTURE</text><line x1="0" y1="692" x2="1144" y2="692" class="line"/>
+      <text x="0" y="725" class="mono green">11:00</text><text x="90" y="725" class="body ink">Writing seminar</text><text x="90" y="750" class="small muted">Arts Building · Room 18</text>
+      <text x="1040" y="730" class="mono muted">SEMINAR</text><line x1="0" y1="767" x2="1144" y2="767" class="line"/>
+      <text x="0" y="800" class="mono green">14:00</text><text x="90" y="800" class="body ink">Study group</text><text x="90" y="825" class="small muted">Learning Commons · Table 6</text>
+      <text x="1040" y="805" class="mono muted">STUDY</text>
+      <rect x="0" y="886" width="1144" height="1" fill="#cbd0c5"/>
+      <text x="0" y="922" class="mono muted">DASHBOARD / DESKTOP / 1440 × 1000</text>
+    </g>
+  </g>
+
+  <!-- Mobile frame: 390 × 844 -->
+  <g transform="translate(1480 100) scale(1.181818)">
+    <rect class="frame" width="330" height="714" rx="20"/>
+    <rect x="0" y="0" width="330" height="54" rx="20" fill="#fffefa"/>
+    <path d="M0 30 Q0 54 20 54 H310 Q330 54 330 30" fill="#fffefa"/>
+    <text x="20" y="33" class="body ink">☰</text><circle cx="164" cy="25" r="13" fill="none" stroke="#315f4c" stroke-width="2"/><text x="157" y="31" class="small green">n.</text>
+    <text x="255" y="31" class="small ink">Alex</text>
+    <line x1="16" y1="57" x2="314" y2="57" class="line"/>
+    <text x="17" y="89" class="mono muted" font-size="10">TUE, 10 NOVEMBER 2026</text>
+    <text x="17" y="124" class="title ink" font-size="25">Good morning, Alex.</text>
+    <text x="17" y="147" class="small muted">Your day at a glance</text>
+    <rect x="16" y="164" width="298" height="143" rx="5" class="soft" stroke="#cbd0c5" stroke-width="2"/>
+    <rect x="16" y="164" width="298" height="6" class="green"/>
+    <text x="30" y="193" class="mono muted" font-size="10">NEXT CLASS</text>
+    <text x="30" y="224" class="mono green" font-size="22">09:30 AM</text>
+    <text x="30" y="250" class="subtitle ink" font-size="21">Biology 101</text>
+    <text x="30" y="273" class="small muted">Science Hall · Room 204</text>
+    <rect x="30" y="282" width="127" height="21" rx="3" fill="#fffefa"/><text x="37" y="297" class="small green" font-size="12">Open course ↗</text>
+    <text x="17" y="337" class="mono green" font-size="10">UPCOMING DEADLINES</text><text x="241" y="337" class="small green" font-size="12">View all</text>
+    <rect x="16" y="348" width="298" height="110" rx="4" fill="#f8f2e7" stroke="#d8d7cd" stroke-width="2"/>
+    <text x="29" y="376" class="body ink" font-size="15">Lab report</text><text x="29" y="398" class="small muted" font-size="12">Biology 101 · Due Thu, Nov 12</text>
+    <line x1="28" y1="410" x2="302" y2="410" class="line"/><text x="29" y="435" class="body ink" font-size="15">Reading response</text><text x="29" y="451" class="small muted" font-size="11">Writing · Due Fri, Nov 13</text>
+    <text x="17" y="490" class="mono muted" font-size="10">IMPORTANT NOTICE</text>
+    <rect x="16" y="500" width="298" height="55" rx="4" fill="#fffefa" stroke="#d8d7cd" stroke-width="2"/>
+    <circle cx="36" cy="527" r="12" fill="#f1e6d6"/><text x="32" y="532" class="small" fill="#9b613f">i</text>
+    <text x="56" y="524" class="small ink" font-size="12">Library hours change</text><text x="56" y="542" class="small muted" font-size="11">this week · Details ↗</text>
+    <text x="17" y="588" class="subtitle ink" font-size="18">Today’s schedule</text>
+    <text x="17" y="617" class="mono green" font-size="10">09:30</text><text x="73" y="617" class="small ink" font-size="13">Biology 101</text><line x1="16" y1="631" x2="314" y2="631" class="line"/>
+    <text x="17" y="656" class="mono green" font-size="10">11:00</text><text x="73" y="656" class="small ink" font-size="13">Writing seminar</text>
+    <rect x="0" y="674" width="330" height="40" fill="#24483a"/>
+    <text x="23" y="699" fill="#ffffff" class="small" font-size="11">⌂ Home</text><text x="95" y="699" fill="#d6e0d3" class="small" font-size="11">▦ Courses</text><text x="187" y="699" fill="#d6e0d3" class="small" font-size="11">◷ Schedule</text><text x="277" y="699" fill="#d6e0d3" class="small" font-size="11">☰</text>
+  </g>
+</svg>
